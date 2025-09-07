@@ -1,0 +1,15 @@
+/Users/bikramrumba/SecureSoftwareDevelopment/SecureAPI/SecureAPI.Infrastructure/bin/Debug/net8.0/SecureAPI.Infrastructure.deps.json
+/Users/bikramrumba/SecureSoftwareDevelopment/SecureAPI/SecureAPI.Infrastructure/bin/Debug/net8.0/SecureAPI.Infrastructure.dll
+/Users/bikramrumba/SecureSoftwareDevelopment/SecureAPI/SecureAPI.Infrastructure/bin/Debug/net8.0/SecureAPI.Infrastructure.pdb
+/Users/bikramrumba/SecureSoftwareDevelopment/SecureAPI/SecureAPI.Infrastructure/bin/Debug/net8.0/SecureAPI.Domain.dll
+/Users/bikramrumba/SecureSoftwareDevelopment/SecureAPI/SecureAPI.Infrastructure/bin/Debug/net8.0/SecureAPI.Domain.pdb
+/Users/bikramrumba/SecureSoftwareDevelopment/SecureAPI/SecureAPI.Infrastructure/obj/Debug/net8.0/SecureAPI.Infrastructure.csproj.AssemblyReference.cache
+/Users/bikramrumba/SecureSoftwareDevelopment/SecureAPI/SecureAPI.Infrastructure/obj/Debug/net8.0/SecureAPI.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/bikramrumba/SecureSoftwareDevelopment/SecureAPI/SecureAPI.Infrastructure/obj/Debug/net8.0/SecureAPI.Infrastructure.AssemblyInfoInputs.cache
+/Users/bikramrumba/SecureSoftwareDevelopment/SecureAPI/SecureAPI.Infrastructure/obj/Debug/net8.0/SecureAPI.Infrastructure.AssemblyInfo.cs
+/Users/bikramrumba/SecureSoftwareDevelopment/SecureAPI/SecureAPI.Infrastructure/obj/Debug/net8.0/SecureAPI.Infrastructure.csproj.CoreCompileInputs.cache
+/Users/bikramrumba/SecureSoftwareDevelopment/SecureAPI/SecureAPI.Infrastructure/obj/Debug/net8.0/SecureAP.7666502A.Up2Date
+/Users/bikramrumba/SecureSoftwareDevelopment/SecureAPI/SecureAPI.Infrastructure/obj/Debug/net8.0/SecureAPI.Infrastructure.dll
+/Users/bikramrumba/SecureSoftwareDevelopment/SecureAPI/SecureAPI.Infrastructure/obj/Debug/net8.0/refint/SecureAPI.Infrastructure.dll
+/Users/bikramrumba/SecureSoftwareDevelopment/SecureAPI/SecureAPI.Infrastructure/obj/Debug/net8.0/SecureAPI.Infrastructure.pdb
+/Users/bikramrumba/SecureSoftwareDevelopment/SecureAPI/SecureAPI.Infrastructure/obj/Debug/net8.0/ref/SecureAPI.Infrastructure.dll

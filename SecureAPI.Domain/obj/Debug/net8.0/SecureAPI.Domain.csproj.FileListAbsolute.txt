@@ -1,0 +1,11 @@
+/Users/bikramrumba/SecureSoftwareDevelopment/SecureAPI/SecureAPI.Domain/bin/Debug/net8.0/SecureAPI.Domain.deps.json
+/Users/bikramrumba/SecureSoftwareDevelopment/SecureAPI/SecureAPI.Domain/bin/Debug/net8.0/SecureAPI.Domain.dll
+/Users/bikramrumba/SecureSoftwareDevelopment/SecureAPI/SecureAPI.Domain/bin/Debug/net8.0/SecureAPI.Domain.pdb
+/Users/bikramrumba/SecureSoftwareDevelopment/SecureAPI/SecureAPI.Domain/obj/Debug/net8.0/SecureAPI.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/bikramrumba/SecureSoftwareDevelopment/SecureAPI/SecureAPI.Domain/obj/Debug/net8.0/SecureAPI.Domain.AssemblyInfoInputs.cache
+/Users/bikramrumba/SecureSoftwareDevelopment/SecureAPI/SecureAPI.Domain/obj/Debug/net8.0/SecureAPI.Domain.AssemblyInfo.cs
+/Users/bikramrumba/SecureSoftwareDevelopment/SecureAPI/SecureAPI.Domain/obj/Debug/net8.0/SecureAPI.Domain.csproj.CoreCompileInputs.cache
+/Users/bikramrumba/SecureSoftwareDevelopment/SecureAPI/SecureAPI.Domain/obj/Debug/net8.0/SecureAPI.Domain.dll
+/Users/bikramrumba/SecureSoftwareDevelopment/SecureAPI/SecureAPI.Domain/obj/Debug/net8.0/refint/SecureAPI.Domain.dll
+/Users/bikramrumba/SecureSoftwareDevelopment/SecureAPI/SecureAPI.Domain/obj/Debug/net8.0/SecureAPI.Domain.pdb
+/Users/bikramrumba/SecureSoftwareDevelopment/SecureAPI/SecureAPI.Domain/obj/Debug/net8.0/ref/SecureAPI.Domain.dll
