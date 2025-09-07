@@ -17,9 +17,8 @@ builder.Services.AddHttpLogging(o =>
                       HttpLoggingFields.ResponseStatusCode;
 });
 
-
-var raw = Environment.GetEnvironmentVariable("DB_CONN")
-          ?? throw new InvalidOperationException("DB_CONN not set");
+var raw = builder.Configuration.GetConnectionString("App")
+          ?? throw new InvalidOperationException("ConnectionStrings:App missing");
 builder.Services.AddSingleton(Database.BuildDataSource(raw));
 // Repos
 builder.Services.AddScoped<IUserRepository, UserRepository>();

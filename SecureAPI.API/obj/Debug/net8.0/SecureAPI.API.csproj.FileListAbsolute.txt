@@ -18,6 +18,7 @@
 /Users/bikramrumba/SecureSoftwareDevelopment/SecureAPI/SecureAPI.API/obj/Debug/net8.0/SecureAPI.API.AssemblyInfo.cs
 /Users/bikramrumba/SecureSoftwareDevelopment/SecureAPI/SecureAPI.API/obj/Debug/net8.0/SecureAPI.API.csproj.CoreCompileInputs.cache
 /Users/bikramrumba/SecureSoftwareDevelopment/SecureAPI/SecureAPI.API/obj/Debug/net8.0/SecureAPI.API.MvcApplicationPartsAssemblyInfo.cache
+/Users/bikramrumba/SecureSoftwareDevelopment/SecureAPI/SecureAPI.API/obj/Debug/net8.0/SecureAPI.API.sourcelink.json
 /Users/bikramrumba/SecureSoftwareDevelopment/SecureAPI/SecureAPI.API/obj/Debug/net8.0/staticwebassets.build.json
 /Users/bikramrumba/SecureSoftwareDevelopment/SecureAPI/SecureAPI.API/obj/Debug/net8.0/staticwebassets.development.json
 /Users/bikramrumba/SecureSoftwareDevelopment/SecureAPI/SecureAPI.API/obj/Debug/net8.0/staticwebassets/msbuild.SecureAPI.API.Microsoft.AspNetCore.StaticWebAssets.props
