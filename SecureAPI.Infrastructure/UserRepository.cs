@@ -11,7 +11,7 @@ public sealed class UserRepository : IUserRepository
 
     public async Task<User?> GetByIdAsync(int id, CancellationToken ct)
     {
-        const string sql = "SELECT id, email FROM app_users WHERE id = @id";
+        const string sql = "SELECT id, email FROM public.app_users WHERE id = @id";
         await using var cmd = _ds.CreateCommand(sql);
         cmd.Parameters.Add(new NpgsqlParameter<int>("id", NpgsqlDbType.Integer) { Value = id });
 
@@ -24,7 +24,7 @@ public sealed class UserRepository : IUserRepository
         await using var conn = await _ds.OpenConnectionAsync(ct);
         await using var tx = await conn.BeginTransactionAsync(ct);
         await using var cmd = new NpgsqlCommand(
-            "INSERT INTO app_users(email, password_hash) VALUES(@e,@p) RETURNING id", conn, tx);
+            "INSERT INTO public.app_users(email, password_hash) VALUES(@e,@p) RETURNING id", conn, tx);
 
         cmd.Parameters.Add(new NpgsqlParameter<string>("e", NpgsqlDbType.Text) { Value = dto.Email });
         cmd.Parameters.Add(new NpgsqlParameter<string>("p", NpgsqlDbType.Text) { Value = dto.PasswordHash });
@@ -38,7 +38,7 @@ public sealed class UserRepository : IUserRepository
     {
         // Escape LIKE wildcards; still parameterized.
         var safe = query.Replace("\\", "\\\\").Replace("%", "\\%").Replace("_", "\\_");
-        const string sql = "SELECT id, email FROM app_users WHERE email ILIKE @q ESCAPE '\\'";
+        const string sql = "SELECT id, email FROM public.app_users WHERE email ILIKE @q ESCAPE '\\'";
         await using var cmd = _ds.CreateCommand(sql);
         cmd.Parameters.Add(new NpgsqlParameter<string>("q", NpgsqlDbType.Text) { Value = $"%{safe}%" });
 

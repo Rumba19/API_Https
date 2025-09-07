@@ -70,20 +70,23 @@ curl -k "https://localhost:5001/api/users/search?q=' OR 1=1 --"   # should not d
 1. **Health**
 - GET {{baseUrl}}/health
 - Expect {"ok":true}
+![healthcheck](Health.png)
 2. **Create user**
 - POST {{baseUrl}}/api/users
 - Headers: Content-Type: application/json
 - Body (raw JSON):
-    ```{ "email": "a@b.com", "passwordHash": "hash" }```
+    ```{ "email": "Abc@testmail.com", "passwordHash": "asdfsd" }```
+![AddUser](Add.png)
 - Expect 201 Created with {"id": <number>}
 3. **Get by id**
 - GET {{baseUrl}}/api/users/1
 - Expect 200 OK with {"id":1,"email":"a@b.com"}
+![GetUser](GetUser.png)
 4. **Search**
 - GET {{baseUrl}}/api/users/search?q=a
 - Expect list with the user.
 - Probe: {{baseUrl}}/api/users/search?q=' OR 1=1 -- should return empty list, not dump data.
-
+![SearchbyEmail](search.png)
 
 ## Security notes
 - HTTPS + HSTS enabled.
