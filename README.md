@@ -64,22 +64,22 @@ curl -k "https://localhost:5001/api/users/search?q=' OR 1=1 --"   # should not d
 ## Use Postman to hit the API Endpoints
 - Create Enviroment: SecureAPI Local.
     -- Variable abseUsrl = https://localhost:5001
-- Settings -> General -> turn  SSL certificate Verification off for localhost if needed
+- Settings -> General -> turn  **SSL certificate Verification** off for localhost if needed
 
 ## Requests in Postman
-1. Health
+1. **Health**
 - GET {{baseUrl}}/health
 - Expect {"ok":true}
-2. Create user
+2. **Create user**
 - POST {{baseUrl}}/api/users
 - Headers: Content-Type: application/json
 - Body (raw JSON):
     ```{ "email": "a@b.com", "passwordHash": "hash" }```
 - Expect 201 Created with {"id": <number>}
-3. Get by id
+3. **Get by id**
 - GET {{baseUrl}}/api/users/1
 - Expect 200 OK with {"id":1,"email":"a@b.com"}
-4. Search
+4. **Search**
 - GET {{baseUrl}}/api/users/search?q=a
 - Expect list with the user.
 - Probe: {{baseUrl}}/api/users/search?q=' OR 1=1 -- should return empty list, not dump data.
